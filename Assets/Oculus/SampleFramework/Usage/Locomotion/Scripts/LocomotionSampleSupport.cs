@@ -230,7 +230,7 @@ public class LocomotionSampleSupport : MonoBehaviour
         TeleportController.EnableMovement(false, false, false, false);
         //lc.PlayerController.SnapRotation = true;
         lc.PlayerController.RotationEitherThumbstick = true;
-        //lc.PlayerController.FixedSpeedSteps = 1;
+        //lc.PlayerController.FixedSpeedSteps = 3;
 
         var input = TeleportController.GetComponent<TeleportInputHandlerTouch>();
         input.InputMode = TeleportInputHandlerTouch.InputModes.ThumbstickTeleportForwardBackOnly;
